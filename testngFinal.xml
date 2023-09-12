@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="generic.ListenerImp" />
+	</listeners>
+	<test thread-count="5" name="Test">
+
+		<classes>
+			
+			<class name="test_Scripts.HM001" />
+			<class name="test_Scripts.HM002" />
+			<class name="test_Scripts.HM022" />
+			<class name="test_Scripts.HM055" />
+			<class name="test_Scripts.SE002" />
+			
+			<class name="test_Scripts.PDP_Web.PDP045" />
+			<class name="test_Scripts.PDP_Web.PDP058" />
+			
+			<class name="test_Scripts.PLP_Web.PLP007"></class>
+			<class name="test_Scripts.PLP_Web.PLP020"></class>
+			<class name="test_Scripts.PLP_Web.PLP050"></class>
+			<class name="test_Scripts.PLP_Web.PLP075"></class>
+			<class name="test_Scripts.PLP_Web.PLP091"></class>
+			<class name="test_Scripts.My_Bag_Web.MB016"></class>
+			 
+			<!-- total13-->
+			<class name="test_Scripts.PLP_Web.PLP060"></class>
+			<class name="test_Scripts.PDP_Web.PDP005"></class>
+			<class name="test_Scripts.PDP_Web.PDP034" />
+			<class name="test_Scripts.My_Orders_Web.MO012" />
+			<class name="test_Scripts.My_Bag_Web.MB011"></class>
+			<class name="test_Scripts.Checkout_web.CO046"></class>
+			<class name="test_Scripts.Payment_web.PA005"></class>
+			<class name="test_Scripts.My_Account_Web.AC0019"></class>
+			<class
+				name="test_Scripts.Login_Web.LO002_Verify_user_is_able_to_login_to_application" />
+			<class name="test_Scripts.Wishlist_Web.WS016"></class>
+			<class name="test_Scripts.Wishlist_Web.WSL029"></class>
+		</classes>
+	</test>
+</suite> <!--
+Suite -->
